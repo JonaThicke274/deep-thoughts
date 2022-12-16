@@ -1,7 +1,7 @@
 # Deep-Thoughts: A Sample Social Networking React Single Page App
 
 ## Purpose/Use of Application
-The purpose of this application/repository is to demonstrate the use of an app 
+The purpose of this application/repository is to demonstrate the use of an app created with React and adjacent [dependencies](#built-with).
 
 ## Built With:
 * Javascript
