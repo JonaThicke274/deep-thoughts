@@ -33,7 +33,7 @@ const startApolloServer = async (typeDefs, resolvers) => {
 	
 	// Wildcard GET route incase a request to any location that isn't explicitly defined
 	app.get('*', (req, res) => {
-		res.sendFile(path.join(__dirname,'client', 'build', 'index.html'));
+		res.sendFile(path.resolve(__dirname,'client', 'build', 'index.html'));
 	});
 
 	db.once('open', () => {
